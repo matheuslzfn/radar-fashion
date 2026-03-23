@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>RadarFashion</title>
 </head>
-<body>
-<header>
-    <h1>RadarFashion - Pagina Inicial</h1>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    <h2>Bem-vindo ao RadarFashion!</h2>
-        <ul>
-            <li>Produtos em destaque</li>
-            <li>Novidades</li>
-            <li>Ofertas especiais</li>
-        </ul>
-    <hr>
-</header>
 
-<ul>
-    <li><a href="categorias.html">Principais Categorias</a></li>
-    <li><a href="#">Calçados</a></li>
-    <li><a href="#">Mapa da loja</a></li>
-    
-</ul>
-<a href="img/mapa.png"><img src="img/mapa.png" alt="Mapa da loja com as principais categorias destacadas" width="400px"></a>
-    
+<body class="bg-light">
+    <header class="bg-primary text-white p-3">
+        <h1 class="text-center">RadarFashion - Pagina Inicial</h1>
+        <ul class="nav justify-content-center">
+            <li><a class="btn btn-secondary m-1" href="index.html">Início</a></li>
+            <li><a class="btn btn-secondary m-1" href="cadastro.html">Cadastro</a></li>
+            <li><a class="btn btn-secondary m-1" href="login.html">Login</a></li>
+        </ul>
+
+    </header>
+    <div class="fundo">
+        <div class="nav justify-content-center mt-3">
+            <h2>Bem-vindo ao RadarFashion!</h2>
+        </div>
+        <div class="nav justify-content-center mt-3">
+            <ul>
+                <li>Produtos em destaque</li>
+                <li>Novidades</li>
+                <li>Ofertas especiais</li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="card p-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul>
+                            <li><a href="categorias.html">Principais Categorias</a></li>
+                            <li><a href="#">Calçados</a></li>
+                            <li><a href="#">Mapa da loja</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <a href="img/mapa.png"><img src="img/mapa.png"
+                                alt="Mapa da loja com as principais categorias destacadas" width="400px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 w-100">
+        <footer class="bg-primary text-white">
+            <p class="text-center mb-0">© 2024 RadarFashion. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
